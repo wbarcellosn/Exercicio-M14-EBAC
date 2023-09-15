@@ -1,0 +1,152 @@
+/* GERAIS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #060212;
+}
+
+.text-colored {
+    color: #fc1a1a;
+}
+
+.text-colored-2 {
+    color: #ffffff;
+}
+
+.text-colored-3 {
+    color: #060212;
+}
+
+.section-title {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar,
+#sobre,
+#assinaturas {
+    background-color: #060212;
+}
+
+/* CABEÇALHO E NAVBAR */
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fc1a1a;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    background-color: #fc1a1a;
+}
+
+/* SEÇÃO SOBRE */
+
+.carousel-item {
+    height: 760px;
+}
+
+/* SEÇÃO ATIVIDADES */
+
+.nav-atividades .nav-link {
+    border: 1px solid #fc1a1a;
+    color: #060212;
+}
+
+.nav-atividades .nav-link:hover {
+    scale: 1.1;
+}
+
+.nav-atividades .nav-link.active,
+#contato button {
+    background-color: #060212;
+    color: #fff;
+    border: none;
+}
+
+.nav-atividades .nav-link.active:hover {
+    background-color: #060212;
+    color: #fff;
+}
+
+/* SEÇÃO ASSINATURAS */
+
+.card,
+.card-body {
+    color: #060212
+}
+
+.card-header {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.card-title {
+    font-size: 3.5rem;
+    color: #fc1a1a;
+}
+
+.card-title::after {
+    content: " ";
+    display: block;
+    background-color: #000000;
+    height: 0.1rem;
+    width: 7rem;
+    margin-top: 0.8rem;
+}
+
+.card a {
+    background-color: #fc1a1a;
+    color: #fff;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card a:hover {
+    background-color: #9e0c33;
+    color: #fff;
+}
+
+/* SEÇÃO CONTATO */
+
+form textarea {
+    resize: none;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+label.error {
+    color: #060212;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin: 0.2rem 0 0 0.2rem
+}
+
+
+
+@media (max-width: 767px) {
+    .carousel-item {
+        height: 280px;
+    }
+
+    .card-title {
+        font-size: 2.5rem;
+    }
+}
